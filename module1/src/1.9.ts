@@ -6,7 +6,7 @@
     name: string;
     isStudent: boolean;
     studentType: null | undefined;
-    success?: 'complete';
+    success?: "completed";
   };
 
   const student: Student = {
@@ -14,7 +14,7 @@
     name: "Mubin",
     isStudent: true,
     studentType: null,
-    success: 'complete'
+    success: "completed",
   };
   const student2: Student = {
     id: 2,
@@ -22,4 +22,8 @@
     isStudent: true,
     studentType: undefined,
   };
+
+  type Add = (num1: number, num2: number) => number;
+
+  const add:Add = (num1, num2) => num1 + num2;
 }
