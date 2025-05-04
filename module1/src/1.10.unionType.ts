@@ -1,7 +1,7 @@
 {
   // union type
 
-  type FrontendDeveloper = "fakibazDeveloper" | "JuniorDeveloper";
+  type FrontendDeveloper = "fakibazDeveloper" | "JuniorDeveloper"; // it can | and & 
   type FullStackDeveloper = "frontendDeveloper" | "backendDeveloper";
 
   type developer = FrontendDeveloper | FullStackDeveloper;
@@ -17,6 +17,8 @@
   const person: User = {
     name: "Junayed",
     age: 22,
-    gender: ""
+    gender: "Male"
   }
+
+
 }
