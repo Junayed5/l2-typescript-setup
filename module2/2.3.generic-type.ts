@@ -37,7 +37,12 @@
 
   const user: GenericTuple<string, string> = ["pagol", "sagol"];
 
-  const userWithID: GenericTuple<number, { name: string; age: number }> = [
+  interface User {
+    name: string;
+    age: number;
+  }
+
+  const userWithID: GenericTuple<number, User> = [
     123,
     { name: "fs", age: 234 },
   ];
